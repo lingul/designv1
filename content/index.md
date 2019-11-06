@@ -1,25 +1,34 @@
 ---
-title: "Min fina titel"
+title: "Min fina me-sida"
+
+views:
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
+
 Min me-sida i kursen design
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/me1.jpg?w=500" class="right" caption="Bild på mig"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Detta är min me-sida i kursen. Denna sida innehåller en presentation av mig själv. Jag kommer underhålla sidan under hela kursen och uppdatera den efter hand och behov.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Så, en presentation är en bra början.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Mitt namn är Linnea Gullmak. Född och uppvuxen i Ronneby, Blekinge, en liten stad mellan Karlskrona och Karlshamn, i en lägenhet. Jag gillade badminton, hästar, teater och har tävlat i badminton när jag var yngre. Jag har gått ekonomi, med inriktning juridik på gymnasiet i Karlskrona. Dessutom har jag gått Teaterlinjen på Blekinge folkhögskola. Jag har jobbat/praktiserat inom administration och kundservice och varit städare och diskare. Nu går jag Webbprogrammering på Blekinge Tekniska högskola.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+När jag började på Blekinge Tekniska högskola så kunde jag ingenting om programmering.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+Om jag skall nämna någon hobby, så får det bli att läsa, skriva och följa filmer och tv-serier.
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
+Ha det bäst!
 
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+/Linnea
