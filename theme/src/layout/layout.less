@@ -1,0 +1,94 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.my-navbar {
+    color: darkblue;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+.my-navbar li {
+    display: inline-block;
+    padding: 2px 10px;
+}
+
+ /* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+    display: none;
+}
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+    display: none;
+}
+
+ /* Container */
+
+.wrap-all {
+    background-color: darkgrey;
+    overflow: auto;
+}
+
+.outer-wrap {
+    width: 100%;
+    overflow: auto;
+}
+
+.inner-wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row::after {
+    clear: both;
+}
+
+ /* main */
+
+.region-header-col-1 {
+    float: left;width: 30%;
+    margin-right: 10px;
+}
+
+.region-header-col-2 {
+    float: left;width: 60%;
+}
+
+.site-logo {
+    display: none;
+}
+
+/* main */
+
+.inner-wrap-main {
+    padding: 30px 0;
+}
+
+ /* footer */
+
+.outer-wrap-footer {
+    background-color: darkblue;
+    color: white;
+}
+
+.inner-wrap-footer {
+    padding: 30px 0;
+}
+
+.region-footer>.block {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
