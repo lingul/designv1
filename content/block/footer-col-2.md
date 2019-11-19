@@ -1,3 +1,3 @@
-#### Footer col 2
+#### OM WEBBPLATSEN
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Denna Webbplatsen är skapad i samband med min utbildning på BTH.

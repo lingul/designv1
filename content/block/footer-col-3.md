@@ -1,3 +1,3 @@
-#### Footer col 3
+#### GITHUB
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+<a href="https://github.com/lingul/designv1">Här finns mitt kursrepo.</a>

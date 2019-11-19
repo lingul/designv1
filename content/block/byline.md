@@ -1,15 +1,46 @@
 Byline
 ========
-<div class="author-byline">
-<figure class="figure left">
-<img src="img/opt.jpg" class="me" alt="Bild på Linnea Gullmak">
-<figcaption>
+<div class="outer-wrap outer-wrap-main">
+    <div class="inner-wrap inner-wrap-main">
+        <div class="row">
 
-<p>Linnea Gullmak</p>
+
+
+                        <main class="region-main " role="main">
+                <article class="article">
+
+<figure class="figure right">
+<figcaption>
 
 </figcaption>
 </figure>
 
-<p><a <img src="opt.jpg" class="me" alt="Bild på Linnea Gullmak"></a> Linnea studerar vid Blekinge Tekniska Högskola och pluggar webbprogrammering.</p>
+<p>Linnea studerar vid Blekinge Tekniska Högskola och pluggar webbprogrammering.</p>
 <p>Hon spenderar mycket tid på att plugga och försöker alltid göra sitt bästa.</p>
+</article>
+<div class="block">
+
+
+            <div class="author-byline">
+<figure class="figure left">
+
+<img src="img/me2.jpg" class="me" alt="Bild på Linnea Gullmak">
+<figcaption>
+
+<p>Linnea</p>
+
+</figcaption>
+</figure>
+
+<p><a rel=author><strong>Linnea Gullmak</strong></a> studerar webbprogrammering vid Blekinge Tekniska Högskola.</p>
+</div>
+
+
+
+</div>
+            </main>
+
+
+        </div>
+    </div>
 </div>

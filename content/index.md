@@ -15,8 +15,6 @@ views:
 Min me-sida i kursen design
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
-
 [FIGURE src="image/me1.jpg?w=500" class="right" caption="Bild på mig"]
 
 Detta är min me-sida i kursen. Denna sida innehåller en presentation av mig själv. Jag kommer underhålla sidan under hela kursen och uppdatera den efter hand och behov.
