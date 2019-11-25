@@ -14,7 +14,7 @@ return [
         "data" => [
             "baseTitle" => " | design",
             "bodyClass" => null,
-            "favicon" => "favicon.ico",
+            "favicon" => "favicon2.ico",
             "htmlClass" => null,
             "lang" => "sv",
             "stylesheets" => [
