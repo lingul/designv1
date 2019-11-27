@@ -4627,7 +4627,7 @@ img {
   max-width: 100%;
 }
 body {
-  font: 16px/1.5 "Gill Sans";
+  font: 18px/1.33333333 "Gill Sans";
 }
 h1,
 h2,
@@ -4649,7 +4649,7 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.26315789;
+  line-height: 1.12280702;
   font-weight: normal;
   border-bottom: 1px solid black;
   margin-bottom: 23px;
@@ -4667,7 +4667,7 @@ h1 + h2 {
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.6;
+  line-height: 1.42222222;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid black;
@@ -4677,7 +4677,7 @@ h2 + h3 {
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.71428571;
+  line-height: 1.52380952;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid black;
@@ -4687,7 +4687,7 @@ h3 + h4 {
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1;
+  line-height: 1.77777778;
   font-weight: normal;
   margin-bottom: 23px;
   border-bottom: 1px solid black;
@@ -4697,7 +4697,7 @@ h4 + h5 {
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.2;
+  line-height: 1.06666667;
   margin-bottom: 23px;
   border-bottom: 1px solid black;
 }
@@ -4706,7 +4706,7 @@ h5 + h6 {
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.2;
+  line-height: 1.06666667;
   margin-bottom: 23px;
   border-bottom: 1px solid black;
 }
@@ -4856,7 +4856,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.71428571;
+  line-height: 1.52380952;
   text-align: left;
   font-style: italic;
 }
@@ -5400,4 +5400,11 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: #47690F;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Gill Sans";
+  font-weight: 200;
 }

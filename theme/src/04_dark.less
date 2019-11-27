@@ -105,9 +105,17 @@ a:hover {
 }
 
 //Adapt the typographic grid to my style
-@fontFamilyBody: "Sans Serif";
-@fontFamilyHeadings: "Sans Serif";
-@fontFamilyCode: "Sans Serif";
+h1,
+h2,
+h3,
+h4 {
+    font-family: @fontFamilyBody;
+    font-weight: 200;
+}
+
+@fontFamilyBody: "Fantasy";
+@fontFamilyHeadings: "Fantasy";
+@fontFamilyCode: "Fantasy";
 
 // Magic number and base fontsize
 @magicNumber:  24px;  // 22px

@@ -30,3 +30,15 @@ v3.0.0 (2019-11-19)
 * kmom03 av Linnea Gullmak
 
 * Grid, layout, typografi.
+
+
+
+
+
+v4.0.0 (2019-27-19)
+
+-------------------
+
+* kmom04 av Linnea Gullmak
+
+* Färger, färghjulet och olika tekniker.

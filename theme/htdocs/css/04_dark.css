@@ -4627,7 +4627,7 @@ img {
   max-width: 100%;
 }
 body {
-  font: 18px/1.33333333 "Sans Serif";
+  font: 18px/1.33333333 "Fantasy";
 }
 h1,
 h2,
@@ -4635,7 +4635,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Sans Serif";
+  font-family: "Fantasy";
   margin-top: 24px;
   margin-bottom: 24px;
 }
@@ -4759,7 +4759,7 @@ code,
 kbd,
 samp,
 .code {
-  font-family: "Sans Serif";
+  font-family: "Fantasy";
 }
 code,
 samp {
@@ -4974,12 +4974,14 @@ hr::after {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
-  background-color: white;
+  background-color: #F7E9A0;
+  color: #47690E;
 }
 .inner-wrap-header {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
+  color: #47690E;
 }
 .vgrid .inner-wrap {
   background: url("../../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5015,13 +5017,14 @@ hr::after {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
+  color: #47690E;
 }
 /* header layout */
 .inner-wrap-header {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  color: black;
+  color: #47690E;
 }
 .region-header-col-2 {
   float: left;
@@ -5033,7 +5036,7 @@ hr::after {
   margin-right: auto;
   margin-left: auto;
   max-width: 6;
-  background-color: white;
+  background-color: #F7E9A0;
 }
 .region-main {
   display: inline;
@@ -5089,8 +5092,8 @@ hr::after {
 }
 .outer-wrap-footer,
 .inner-wrap-footer {
-  color: black;
-  background-color: white;
+  color: #47690F;
+  background-color: #F7E9A0;
 }
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
@@ -5106,7 +5109,7 @@ hr::after {
   box-sizing: border-box;
 }
 .my-navbar {
-  color: blue;
+  color: white;
   padding-top: 10px;
   list-style-type: none;
 }
@@ -5124,7 +5127,7 @@ hr::after {
 }
 /* Container */
 .wrap-all {
-  background-color: white;
+  background-color: #F7E9A0;
 }
 .outer-wrap {
   width: 100%;
@@ -5160,7 +5163,7 @@ hr::after {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: black;
+  background-color: #F7E9A0;
 }
 .region-breadcrumb {
   display: inline;
@@ -5191,7 +5194,7 @@ hr::after {
   box-sizing: border-box;
 }
 .my-navbar {
-  color: black;
+  color: #47690F;
   padding-top: 10px;
   list-style-type: none;
 }
@@ -5398,4 +5401,11 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: #47690F;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Fantasy";
+  font-weight: 200;
 }
