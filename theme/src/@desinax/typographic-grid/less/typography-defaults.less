@@ -19,12 +19,12 @@
 @fontSizeH6: 1.25em;
 
 // header h1-h6 borders
-@colorH1BorderBottom: black;
-@colorH2BorderBottom: black;
-@colorH3BorderBottom: black;
-@colorH4BorderBottom: black;
-@colorH5BorderBottom: black;
-@colorH6BorderBottom: black;
+@colorH1BorderBottom: #666;
+@colorH2BorderBottom: #CCC;
+@colorH3BorderBottom: #EEE;
+@colorH4BorderBottom: #EEE;
+@colorH5BorderBottom: #EEE;
+@colorH6BorderBottom: #EEE;
 @borderSizeH1: 1px;
 @borderSizeH2: 1px;
 @borderSizeH3: 1px;
@@ -74,6 +74,10 @@
      */
     .showGrid(@gridImage) {
         background-image: url("@{gridImage}");
+    }
+
+    .showGridAlt(@gridColor: #f4e3d7) {
+        background-image: repeating-linear-gradient(to bottom, transparent 0px, transparent (@magicNumber - 1), @gridColor (@magicNumber - 1), @gridColor @magicNumber);
     }
 
     .font(@fontSize: 100.01%, @fontFamily: @fontFamilyBody) {

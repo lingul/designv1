@@ -4327,30 +4327,6 @@ template {
   font-family: 'Font Awesome 5 Brands';
 }
 /**
- * Internal self contained modules, save in directory module/.
- */
-/*!
- * Stylesheet for design kmom01.
- *
- * This stylesheet is for the design course and kmom01. Fill it with style
- * to style up the website so it is useable.
- */
-/* poor-mans-normalize */
-/* Hide submenu, leave this to kmom02 */
-/* Hide responsive/mobile menu, leave this to kmom02 */
-/* Container */
-/* main */
-/* footer */
-/**
- * Style for the stylechooser.
- */
-/**
- * Variables
- */
-/**
- * Style
- */
-/**
  * A responsive menu.
  */
 /**
@@ -4960,9 +4936,9 @@ hr::after {
   margin-left: -0.52083333%;
   margin-right: -0.52083333%;
   display: block;
-  width: 101.04166667%;
-  margin-left: -0.52083333%;
-  margin-right: -0.52083333%;
+  width: 81.04166667%;
+  margin-left: -0.32083333%;
+  margin-right: -0.32083333%;
   margin-bottom: 12px;
 }
 .row::after {
@@ -5088,7 +5064,7 @@ hr::after {
   margin-right: 0.52083333%;
 }
 .outer-wrap-footer {
-  background-color: white;
+  background-color: #ccc;
 }
 .inner-wrap-footer {
   color: black;

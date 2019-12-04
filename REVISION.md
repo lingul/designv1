@@ -42,3 +42,16 @@ v4.0.0 (2019-27-19)
 * kmom04 av Linnea Gullmak
 
 * Färger, färghjulet och olika tekniker.
+
+
+
+
+
+
+v5.0.0 (2019-11-14)
+
+-------------------
+
+* kmom05 av Linnea Gullmak
+
+* Bilder is done.

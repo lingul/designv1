@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom04.
+ * Stylesheet for design kmom05.
  *
- * This stylesheet is for the design course and kmom04 where I make theme dark.
+ * This stylesheet is for the design course and kmom05 where I make theme minimalistic.
  */
 
 /**
@@ -39,13 +39,11 @@
 @import "@desinax/typographic-grid/less/typography-font-families.less";
 @import "@desinax/typographic-grid/less/typography-defaults.less";
 
+/**
+ * Import the LESS-module figure.
+ */
+@import "@desinax/figure/less/figure.less";
 
-
-// Show the grid
-.hgrid .inner-wrap {
-    @gridImage: "../../img/magic-number-@{magicNumber}.png";
-    #desinax-hgrid.showGrid(@gridImage);
-}
 
 /**
  * Base style to affect HTML elements on a general scale.
@@ -59,7 +57,7 @@
  * Import the vertical grid.
  */
 @import "@desinax/vertical-grid/less/grid.less";
-@import "layout/dark_layout.less";
+@import "layout/minimalistic_layout.less";
 
 // Default grid, change to fit your requirements.
 //@columnWidth:   30;
@@ -79,9 +77,43 @@
 @import "layout/regions.less";     // To add style for ?regions
 
 
+//Include the module
+//Here is the files you can choose to include.
 /**
- * My own settings, not currently in their own module.
+ * Figure and figcaption for images and other media using figure/figcaption
  */
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+
+/**
+* My own settings, not currently in their own module.
+*/
+
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+// Enable style from the module and optinally add customized layout
+    figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
 
 /* unvisited link */
 a:link {
@@ -98,6 +130,13 @@ a:hover {
     color: #47690F;
 }
 
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    @maxContentWidth: 960px;
+    #desinax-figure.figure(@maxContentWidth);
+}
+
+
 //Adapt the typographic grid to my style
 h1,
 h2,
@@ -107,9 +146,9 @@ h4 {
     font-weight: 200;
 }
 
-@fontFamilyBody: "Fantasy";
-@fontFamilyHeadings: "Fantasy";
-@fontFamilyCode: "Fantasy";
+@fontFamilyBody: "Gill Sans";
+@fontFamilyHeadings: "Gill Sans";
+@fontFamilyCode: "Gill Sans";
 
 // Magic number and base fontsize
 @magicNumber:  24px;  // 22px
