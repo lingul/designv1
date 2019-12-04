@@ -3,6 +3,12 @@
  *
  * This stylesheet is for the design course and kmom05 where I make theme minimalistic.
  */
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-fCZJ.ttf) format('truetype');
+}
 /**
  * Import mixins.
  */
@@ -5377,6 +5383,23 @@ div.author-byline {
 /**
 * My own settings, not currently in their own module.
 */
+.html,
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Merriweather', serif;
+}
+.code {
+  box-sizing: border-box;
+  padding: 0 1em;
+  background-color: #ccc;
+}
+.max-width {
+  max-width: 100%;
+}
+.full-width {
+  width: 100%;
+}
 .hgrid .inner-wrap {
   background-image: url("../../img/magic-number-24px.png");
 }

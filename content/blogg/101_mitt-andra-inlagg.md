@@ -9,17 +9,20 @@ published: "2019-12-02"
 Min skål
 ==================================
 <figure class="figure center">
-    <img src="image/bowl.jpg?&w=800&h=500&f=brightness,90" alt="Skål">
+    <h4>Brightness 90</code></h4>
+    <img src="image/bowl.jpg?&w=800&h=500&f=brightness,90" class="max-width" alt="Skål">
     <figcaption>
         <p>Den här bilden är conventerad till Brightness 90.</p>
     </figcaption>
 </figure>
 
 
-Gaussian blur {anchor-hit}
------------------------------------
+
+
+
 <figure class="figure center">
-    <img src="image/bowl.jpg?&w=400&h=400&f=gaussian_blur" alt="skål">
+    <h4>Gaussian blur</code></h4>
+    <img src="image/bowl.jpg?&w=400&h=400&f=gaussian_blur" class="max-width" alt="skål">
     <figcaption>
         <p>Den här bilden är conventerad till Gaussian blur.</p>
     </figcaption>
@@ -29,10 +32,10 @@ Gaussian blur {anchor-hit}
 
 
 
-Pixelate {anchor-hit}
------------------------------------
+
 <figure class="figure center">
-    <img src="image/bowl.jpg?&w=200&h=400&f=pixelate,10,10" alt="skål">
+    <h4>Pixelate</code></h4>
+    <img src="image/bowl.jpg?&w=200&h=400&f=pixelate,10,10" class="max-width" alt="skål">
     <figcaption>
         <p>Den här bilden är conventerad till Pixelate.</p>
     </figcaption>
@@ -41,10 +44,10 @@ Pixelate {anchor-hit}
 
 
 
-Mean removal {anchor-hit}
------------------------------------
+
 <figure class="figure center">
-    <img src="image/bowl.jpg?&w=500&h=300&f=mean_removal" alt="skål">
+    <h4>Mean removal</code></h4>
+    <img src="image/bowl.jpg?&w=500&h=300&f=mean_removal" class="max-width" alt="skål">
     <figcaption>
         <p>Den här bilden är conventerad till Mean removal</p>
     </figcaption>
@@ -55,11 +58,14 @@ Mean removal {anchor-hit}
 
 
 <figure class="figure right">
-    <img src="image/bowl.jpg?&w=200&h=400" alt="äppelsorter">
+    <img src="image/bowl.jpg?&w=200&h=400" class="max-width" alt="äppelsorter">
     <figcaption>
         <p>Width 200 och height 400</p>
     </figcaption>
 </figure>
+
+
+
 Bilden {anchor-hit}
 -----------------------------------
 

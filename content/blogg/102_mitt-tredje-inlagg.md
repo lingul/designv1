@@ -8,17 +8,19 @@ published: "2019-12-02"
 Äppelsorter
 ==================================
 <figure class="figure center">
-    <img src="image/apple.jpg?&w=400&h=400" alt="äppelsorter">
+    <img src="image/apple.jpg?&w=400&h=400" class="max-width" alt="äppelsorter">
     <figcaption>
         <p>Äppelsorter från Kiviks musteri i skåne</p>
     </figcaption>
 </figure>
 
 
-Emboss {anchor-hit}
------------------------------------
+
+
+
 <figure class="figure center">
-    <img src="image/apple.jpg?&w=800&h=500&f=emboss" alt="äppelsorter">
+    <h4>Emboss</code></h4>
+    <img src="image/apple.jpg?&w=800&h=500&f=emboss" class="max-width" alt="äppelsorter">
     <figcaption>
         <p>Den här bilden är conventerad till Emboss.</p>
     </figcaption>
@@ -27,10 +29,11 @@ Emboss {anchor-hit}
 
 
 
-Edge detect {anchor-hit}
------------------------------------
+
+
 <figure class="figure center">
-    <img src="image/apple.jpg?&w=600&h=300&f=edgedetect" alt="äppelsorter">
+    <h4>Edge detect</code></h4>
+    <img src="image/apple.jpg?&w=600&h=300&f=edgedetect" class="max-width" alt="äppelsorter">
     <figcaption>
         <p>Den här bilden är conventerad till Edge detect.</p>
     </figcaption>
@@ -39,10 +42,11 @@ Edge detect {anchor-hit}
 
 
 
-Colorize 0,255,0,0 {anchor-hit}
------------------------------------
+
+
 <figure class="figure center">
-    <img src="image/apple.jpg?&w=300&h=600&f=colorize,0,255,0,0" alt="äppelsorter">
+    <h4>Colorize 0,255,0,0</code></h4>
+    <img src="image/apple.jpg?&w=300&h=600&f=colorize,0,255,0,0" class="max-width" alt="äppelsorter">
     <figcaption>
         <p>Den här bilden är conventerad till Colorize.</p>
     </figcaption>
@@ -52,7 +56,7 @@ Colorize 0,255,0,0 {anchor-hit}
 
 
 <figure class="figure right">
-    <img src="image/apple.jpg?&w=300&h=600" alt="äppelsorter">
+    <img src="image/apple.jpg?&w=300&h=600" class="max-width" alt="äppelsorter">
     <figcaption>
         <p>Width 300 och height 600</p>
     </figcaption>
