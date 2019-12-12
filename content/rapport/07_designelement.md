@@ -3,7 +3,6 @@
 Designelement
 =========================
 
-
 Min design
 -----------------------
 Temat designade jag med gradient. Jag lade en border runt runt min main, footer och navbar. Jag ändrade sitelogo och jag ändrade också typografin för div och h1-h4. Bilden på mig beslöt jag att behålla.
@@ -25,8 +24,7 @@ Transparant: Inner-wrap och navbar är transparent.
 Referenser
 -----------------------
 Design Elements Principles
-
-https://uigradients.com
+uigradients
 
 
 Övrigt

@@ -89,10 +89,87 @@
 @import "@desinax/figure/less/codepen.less";
 @import "@desinax/figure/less/figure.less";
 
+@import url('https://fonts.googleapis.com/css?family=Sarpanch:900');
 
 /**
 * My own settings, not currently in their own module.
 */
+
+h3 {
+    grid-area: text;
+    font-family: 'Sarpanch', sans-serif;
+    color: #8C95F9;
+    text-shadow: 1vmin 1vmin 0 orange, -1vmin -1vmin 0 orange;
+    text-shadow: 2px 2px 4px white;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+h4 {
+    color: white;
+    background-color: #8C95F9;
+    background-position: center;
+    text-shadow: 2px 2px 4px white;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+div {
+    display: block;
+    color: white;
+    background-position: center;
+    text-shadow: 2px 2px 4px white;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+h1 {
+    grid-area: text;
+    font-family: 'Sarpanch', sans-serif;
+    margin: 0;
+    padding: 30px;
+    color: #8C95F9;
+    text-shadow: 1vmin 1vmin 0 #FAEBC1, -1vmin -1vmin 0 #E05E00;
+}
+
+a {
+    text-overflow: none;
+    text-shadow: 1px 0px 0px #8C95F9,
+        0px 1px 0px #8C95F9,
+        2px 1px 0px #8C95F9,
+        1px 2px 0px #8C95F9,
+        3px 2px 0px #8C95F9,
+        2px 3px 0px #8C95F9,
+        4px 3px 0px #8C95F9,
+        3px 4px 0px #8C95F9,
+        5px 4px 0px #8C95F9,
+        4px 5px 0px #8C95F9,
+        6px 5px 0px #8C95F9,
+        5px 6px 0px #8C95F9,
+        7px 6px 0px #8C95F9,
+        6px 7px 0px #8C95F9,
+        8px 7px 0px #e05e00,
+        7px 8px 0px #e05e00,
+        9px 8px 0px #e05e00,
+        8px 9px 0px #e05e00,
+        10px 9px 0px #e05e00,
+        9px 10px 0px #e05e00,
+        11px 10px 0px #e05e00,
+        10px 11px 0px #8C95F9;
+}
+
+p,
+h2 {
+    text-shadow: 2px 2px 4px white;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+
 .code {
     box-sizing: border-box;
     padding: 0 1em;
@@ -147,35 +224,13 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: green;
+    color: #8C95F9;
 }
 
 // Enable style from the module and optinally add customized layout
 figure.figure {
     @maxContentWidth: 960px;
     #desinax-figure.figure(@maxContentWidth);
-}
-
-div {
-    font-family: sans-serif;
-    font-size: 20px;
-    color: white;
-}
-
-h1 {
-    font-family: sans-serif;
-    font-weight: 200;
-    font-size: 50px;
-    color: white;
-}
-
-h2,
-h3,
-h4 {
-    font-family: sans-serif;
-    font-weight: 200;
-    font-size: 20px;
-    color: white;
 }
 
 //Adapt the typographic grid to my style

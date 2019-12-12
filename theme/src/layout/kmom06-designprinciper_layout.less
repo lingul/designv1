@@ -10,6 +10,10 @@
 /**
  * General layout
  */
+article {
+    display: inline-block;
+}
+
 figure.figure figcaption p {
      margin-top: 0;
      margin-bottom: 0;
@@ -36,6 +40,7 @@ figure.figure figcaption p {
 .inner-wrap-header {
     #desinax-vgrid.grid(100%);
     background-image: url(../img/theme/åtta.gif);
+    background-repeat: repeat-x;
     background-color: black;
 }
 
@@ -62,6 +67,7 @@ figure.figure figcaption p {
     background-position: center;
     height: 35em;
     max-width: none;
+    background-color: #4B5AAE;
 }
 
 .inner-wrap-footer {
@@ -76,23 +82,23 @@ figure.figure figcaption p {
     background-repeat: no-repeat;
     background-position: center;
     height: 35em;
-    max-width: none;
 }
 
 .region-header-col-1
 .region-header-col-3 {
     //width: 30%;
-    //float: left
+    //float: none
 }
 
 .region-header-col-2 {
+    background-image: url(../img/theme/åtta.gif);
     //width: 60%;
-    float: left;
-    text-align: center;
+    //float: center;
+    //text-align: center;
 }
 
 .inner-wrap-main {
-    background-color: #A88EC5;
+    background-color: #9F8D64;
     //.clearfix();
     //overflow: auto;
 }
@@ -101,7 +107,7 @@ figure.figure figcaption p {
 .region-sidebar-left,
 .region-sidebar-right {
     #desinax-vgrid.grid(@columns * 1 / 4);
-    background-color: #A88EC5;
+    background-color: #9F8D64;
     //overflow: auto;
 }
 
@@ -143,20 +149,22 @@ figure.figure figcaption p {
 .footer-column {
     #desinax-vgrid.column(@columns / 2);
     //width: 33%;
-    //float: left;
+    //float: center;
 }
 
 .outer-wrap-footer {
-    background-image: url(../img/spets.png);
-    background-repeat: space;
+    //background-image: url(../img/form.jpg);
+    //background-repeat: no-repeat;
 }
 
 .inner-wrap-footer {
-    background-image: url(../img/theme/åtta.gif);
+    background-image: url(../img/spets.png);
     background-repeat: no-repeat;
-    background-position: center;
-    height: 20em;
-    max-width: none;
+    //background-image: url(../img/theme/åtta.gif);
+    //background-repeat: repeat-x;
+    //background-position: center;
+    //height: 20em;
+    //max-width: none;
 }
 
 /* Hide submenu, leave this to kmom02 */
@@ -167,7 +175,6 @@ figure.figure figcaption p {
 
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
-    display: block;
     color: white;
 }
 
@@ -177,30 +184,31 @@ figure.figure figcaption p {
 }
 
 .my-navbar {
+    float: right;
+    text-align: right;
     color: white;
-    padding-top: 10px;
+    padding-top: 30px;
     list-style-type: none;
 }
 
 .my-navbar li {
-    display: inline-block;
+    text-align: right;
     padding: 2px 10px;
 }
 
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
     background-color: white
-    display: none;
 }
 
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
-    display: none;
-    color: #A88EC5;
+
+    color: #9F8D64;
 }
 
 .rm-max .rm-mobile {
-  background-color: #A88EC5;
+    background-color: #9F8D64;
 }
 
 /* Container */
@@ -209,7 +217,7 @@ figure.figure figcaption p {
 }
 
 .wrap-all {
-    background-color: #A88EC5;;
+    background-color: #9F8D64;;
     //overflow: auto;
 }
 
@@ -221,7 +229,7 @@ figure.figure figcaption p {
 
 .outer-wrap-main {
     width: 100%;
-    background-color: #A88EC5;
+    background-color: #9F8D64;
 }
 
 .inner-wrap {
@@ -236,15 +244,21 @@ figure.figure figcaption p {
 
 /* main */
 
+.region-header-col-2 {
+  width: 60%;
+  float: left;
+  text-align: center;
+}
+
 .region-header-col-1 {
     #desinax-vgrid.column(5);
     float: left;width: 30%;
     margin-right: 10px;
 }
 
-.region-header-col-2 {
+.region-header-col-3 {
     #desinax-vgrid.column(14);
-    float: left;width: 60%;
+    float: center;width: 60%;
 }
 
 .region-flash {
@@ -286,6 +300,7 @@ figure.figure figcaption p {
 .my-navbar {
     padding-top: 10px;
     list-style-type: none;
+    text-align: center;
 }
 
 .my-navbar li {
@@ -295,14 +310,18 @@ figure.figure figcaption p {
 
 /* main */
 
-.region-header-col-1,
+.region-header-col-1 {
+    display: none;
+    float: center;width: 30%;
+    margin-right: 10px;
+}
 .region-header-col-3 {
-    float: left;width: 30%;
+    float: center;width: 30%;
     margin-right: 10px;
 }
 
 .region-header-col-2 {
-    float: left;width: 60%;
+    float: center;width: 60%;
 }
 
 .site-logo {
@@ -340,7 +359,6 @@ figure.figure figcaption p {
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
     background-color: black;
-    display: block;
 }
 
 div.author-byline {
