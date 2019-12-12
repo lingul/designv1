@@ -45,8 +45,8 @@ return [
             "data" => [
                 "homeLink"      => "",
                 "siteLogoText"  => "design",
-                "siteLogoTextIcon" => "image/theme/leaf_40x40.png",
-                "siteLogoTextIconAlt" => "Löv-bild",
+                "siteLogoTextIcon" => "image/theme/krona.png",
+                "siteLogoTextIconAlt" => "Krona-bild",
             ],
         ],
         [

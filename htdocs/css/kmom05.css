@@ -5247,14 +5247,14 @@ hr::after {
   display: block;
 }
 div.author-byline {
-  border: 1px inset #000;
-  border-radius: 5px;
+  border: 2px inset #000;
+  border-radius: 10px;
   padding: 2ex;
   clear: both;
-  width: 500px;
+  width: 200px;
   margin-bottom: 10px;
-  margin-left: 190px;
-  margin-right: 290px;
+  margin-left: 800px;
+  margin-right: 120px;
 }
 /* Responsive 1, 2, 3 */
 @media screen and (max-width: 1000px) {

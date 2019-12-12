@@ -10,6 +10,12 @@
 /**
  * General layout
  */
+figure.figure figcaption p {
+     margin-top: 0;
+     margin-bottom: 0;
+     font-style: italic;
+     display: none;
+}
 
 .row {
     #desinax-vgrid.row();
@@ -22,13 +28,15 @@
 
 .inner-wrap {
     #desinax-vgrid.grid(1100px);
+    background-color: black;
     //max-width: 800px;
     //margin: 0 auto;
-    background-color: #ccc;
 }
 
 .inner-wrap-header {
     #desinax-vgrid.grid(100%);
+    background-image: url(../img/theme/åtta.gif);
+    background-color: black;
 }
 
 .vgrid .inner-wrap {
@@ -49,20 +57,26 @@
 /* header layout */
 .outer-wrap-header {
     #desinax-vgrid.grid(100%);
-    background-color: white;
-    //overflow: auto;
-    //.clearfix();
+    background-image: url(../img/theme/åtta.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 35em;
+    max-width: none;
 }
 
 .inner-wrap-footer {
+    background-color: black;
     #desinax-vgrid.grid(100%);
 }
 
 /* header layout */
 .inner-wrap-header {
     #desinax-vgrid.grid(100%);
-    color: black;
-    //max-width: 100%;
+    background-image: url(../img/theme/åtta.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 35em;
+    max-width: none;
 }
 
 .region-header-col-1
@@ -78,6 +92,7 @@
 }
 
 .inner-wrap-main {
+    background-color: #A88EC5;
     //.clearfix();
     //overflow: auto;
 }
@@ -86,7 +101,7 @@
 .region-sidebar-left,
 .region-sidebar-right {
     #desinax-vgrid.grid(@columns * 1 / 4);
-    background-color: #ccc;
+    background-color: #A88EC5;
     //overflow: auto;
 }
 
@@ -132,28 +147,33 @@
 }
 
 .outer-wrap-footer {
-background-color: #ccc;
+    background-image: url(../img/spets.png);
+    background-repeat: space;
 }
 
 .inner-wrap-footer {
-    color: black;
-    background-color: #ccc;
+    background-image: url(../img/theme/åtta.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20em;
+    max-width: none;
 }
 
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
     display: block;
+    color: white;
 }
 
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
     display: block;
+    color: white;
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .my-navbar {
@@ -169,28 +189,44 @@ background-color: #ccc;
 
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
+    background-color: white
     display: none;
 }
 
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
     display: none;
+    color: #A88EC5;
+}
+
+.rm-max .rm-mobile {
+  background-color: #A88EC5;
 }
 
 /* Container */
+.row::after {
+    clear: both;
+}
 
 .wrap-all {
-    background-color: #ccc;
+    background-color: #A88EC5;;
     //overflow: auto;
 }
 
 .outer-wrap {
     width: 100%;
+    background-color: black;
     //overflow: auto;
+}
+
+.outer-wrap-main {
+    width: 100%;
+    background-color: #A88EC5;
 }
 
 .inner-wrap {
     width: 80%;
+    height: 20%
     margin: 0 auto;
 }
 
@@ -212,8 +248,9 @@ background-color: #ccc;
 }
 
 .region-flash {
-    #desinax-vgrid.column(@columns);
-    background-color: #ccc;
+    display: none;
+    //#desinax-vgrid.column(@columns);
+    //background-color: black;
 }
 
 .region-breadcrumb {
@@ -224,8 +261,6 @@ background-color: #ccc;
     display: none;
 }
 
-/* main */
-
 .inner-wrap-main {
     padding: 30px 0;
 }
@@ -233,6 +268,7 @@ background-color: #ccc;
 /* footer */
 
 .inner-wrap-footer {
+    background-color: black;
     padding: 30px 0;
 }
 
@@ -245,11 +281,9 @@ background-color: #ccc;
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .my-navbar {
-    color: black;
     padding-top: 10px;
     list-style-type: none;
 }
@@ -259,28 +293,7 @@ background-color: #ccc;
     padding: 5px 5px;
 }
 
- /* Container */
-
-.wrap-all {
-    background-color: white;
-    //overflow: auto;
-}
-
-.outer-wrap {
-    width: 100%;
-    //overflow: auto;
-}
-
-.inner-wrap {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.row::after {
-    clear: both;
-}
-
- /* main */
+/* main */
 
 .region-header-col-1,
 .region-header-col-3 {
@@ -302,7 +315,7 @@ background-color: #ccc;
     padding: 30px 0;
 }
 
- /* footer */
+/* footer */
 
 .footer-column {
     #desinax-vgrid.column(@columns/3);
@@ -313,30 +326,30 @@ background-color: #ccc;
 }
 
 .region-footer>.block {
-    padding-top: 30px;
-    width: 100%;
-    text-align: center;
+   padding-top: 30px;
+   width: 100%;
+   text-align: center;
 }
 
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
-   display: block;
+    background-color: black;
+    display: block;
 }
 
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
-   display: block;
+    background-color: black;
+    display: block;
 }
 
 div.author-byline {
-    border: 2px inset #000;
-    border-radius: 10px;
     padding: 2ex;
     clear: both;
     width: 200px;
     margin-bottom: 10px;
-    margin-left: 800px;
-    margin-right: 120px;
+    margin-left: 50px;
+    margin-right: 200px;
 }
 
 /* Responsive 1, 2, 3 */

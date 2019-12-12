@@ -4627,7 +4627,7 @@ h1 {
   font-size: 2.375em;
   line-height: 1.12280702;
   font-weight: normal;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #666;
   margin-bottom: 23px;
 }
 h1 ~ h1,
@@ -4646,7 +4646,7 @@ h2 {
   line-height: 1.42222222;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #CCC;
 }
 h2 + h3 {
   margin-top: 24px;
@@ -4656,7 +4656,7 @@ h3 {
   line-height: 1.52380952;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #EEE;
 }
 h3 + h4 {
   margin-top: 24px;
@@ -4666,7 +4666,7 @@ h4 {
   line-height: 1.77777778;
   font-weight: normal;
   margin-bottom: 23px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
   margin-top: 24px;
@@ -4675,7 +4675,7 @@ h5 {
   font-size: 1.25em;
   line-height: 1.06666667;
   margin-bottom: 23px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
   margin-top: 24px;
@@ -4684,7 +4684,7 @@ h6 {
   font-size: 1.25em;
   line-height: 1.06666667;
   margin-bottom: 23px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #EEE;
 }
 p {
   margin-bottom: 24px;
@@ -5238,14 +5238,14 @@ hr::after {
   display: block;
 }
 div.author-byline {
-  border: 1px inset #000;
-  border-radius: 5px;
+  border: 2px inset #000;
+  border-radius: 10px;
   padding: 2ex;
   clear: both;
-  width: 500px;
+  width: 200px;
   margin-bottom: 10px;
-  margin-left: 190px;
-  margin-right: 290px;
+  margin-left: 800px;
+  margin-right: 120px;
 }
 /* Responsive 1, 2, 3 */
 @media screen and (max-width: 1000px) {

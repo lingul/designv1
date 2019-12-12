@@ -15,8 +15,9 @@ Byline
 </figcaption>
 </figure>
 
-<p>Linnea studerar vid Blekinge Tekniska Högskola och pluggar webbprogrammering.</p>
-<p>Hon spenderar mycket tid på att plugga och försöker alltid göra sitt bästa.</p>
+Linnea studerar vid Blekinge Tekniska Högskola och pluggar webbprogrammering.
+<br><br/>
+Hon spenderar mycket tid på att plugga och försöker alltid göra sitt bästa.
 </article>
 <div class="block">
 
