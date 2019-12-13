@@ -4982,15 +4982,13 @@ figure.figure figcaption p {
   margin-right: auto;
   margin-left: auto;
   max-width: 1100px;
-  background-color: black;
+  background-color: white;
 }
 .inner-wrap-header {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  background-image: url(../img/theme/åtta.gif);
-  background-repeat: repeat-x;
-  background-color: black;
+  background-color: white;
 }
 .vgrid .inner-wrap {
   background: url("../../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5020,7 +5018,7 @@ figure.figure figcaption p {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  background-image: url(../img/theme/åtta.gif);
+  background-image: url(../img/theme/kreativ.png);
   background-repeat: no-repeat;
   background-position: center;
   height: 35em;
@@ -5028,7 +5026,7 @@ figure.figure figcaption p {
   background-color: #4B5AAE;
 }
 .inner-wrap-footer {
-  background-color: black;
+  background-color: white;
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
@@ -5038,16 +5036,16 @@ figure.figure figcaption p {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  background-image: url(../img/theme/åtta.gif);
+  background-image: url(../img/theme/stenar.jpg);
   background-repeat: no-repeat;
   background-position: center;
   height: 35em;
 }
 .region-header-col-2 {
-  background-image: url(../img/theme/åtta.gif);
+  background-image: url(../img/theme/kreativ.png);
 }
 .inner-wrap-main {
-  background-color: #9F8D64;
+  background-color: #f69e31;
 }
 .region-main,
 .region-sidebar-left,
@@ -5055,7 +5053,7 @@ figure.figure figcaption p {
   margin-right: auto;
   margin-left: auto;
   max-width: 6;
-  background-color: #9F8D64;
+  background-color: #f69e31;
 }
 .region-main {
   display: inline;
@@ -5110,17 +5108,17 @@ figure.figure figcaption p {
   margin-right: 0.52083333%;
 }
 .inner-wrap-footer {
-  background-image: url(../img/spets.png);
-  background-repeat: no-repeat;
+  background-image: url(../img/lek.jpg);
+  background-repeat: repeat;
 }
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
   display: block;
-  color: white;
+  color: black;
 }
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
-  color: white;
+  color: black;
 }
 * {
   margin: 0;
@@ -5129,7 +5127,7 @@ figure.figure figcaption p {
 .my-navbar {
   float: right;
   text-align: right;
-  color: white;
+  color: black;
   padding-top: 30px;
   list-style-type: none;
 }
@@ -5143,25 +5141,25 @@ figure.figure figcaption p {
 }
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
-  color: #9F8D64;
+  color: #f69e31;
 }
 .rm-max .rm-mobile {
-  background-color: #9F8D64;
+  background-color: #f69e31;
 }
 /* Container */
 .row::after {
   clear: both;
 }
 .wrap-all {
-  background-color: #9F8D64;
+  background-color: #f69e31;
 }
 .outer-wrap {
   width: 100%;
-  background-color: black;
+  background-color: white;
 }
 .outer-wrap-main {
   width: 100%;
-  background-color: #9F8D64;
+  background-color: #f69e31;
 }
 .inner-wrap {
   width: 80%;
@@ -5213,7 +5211,7 @@ figure.figure figcaption p {
 }
 /* footer */
 .inner-wrap-footer {
-  background-color: black;
+  background-color: white;
   padding: 30px 0;
 }
 .region-footer > .block {
@@ -5279,12 +5277,12 @@ figure.figure figcaption p {
 }
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
-  background-color: black;
+  background-color: #F69E31;
   display: block;
 }
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
-  background-color: black;
+  background-color: white;
 }
 div.author-byline {
   padding: 2ex;
@@ -5430,27 +5428,27 @@ div.author-byline {
 h3 {
   grid-area: text;
   font-family: 'Sarpanch', sans-serif;
-  color: #8C95F9;
-  text-shadow: 1vmin 1vmin 0 orange, -1vmin -1vmin 0 orange;
-  text-shadow: 2px 2px 4px white;
+  color: #afbcc5;
+  text-shadow: 1vmin 1vmin 0 #E60106, -1vmin -1vmin 0 #E60106;
+  text-shadow: 2px 2px 4px black;
   font-family: sans-serif;
   font-weight: 200;
   font-size: 20px;
 }
 h4 {
-  color: white;
-  background-color: #8C95F9;
+  color: black;
+  background-color: #afbcc5;
   background-position: center;
-  text-shadow: 2px 2px 4px white;
+  text-shadow: 2px 2px 4px black;
   font-family: sans-serif;
   font-weight: 200;
   font-size: 20px;
 }
 div {
   display: block;
-  color: white;
+  color: black;
   background-position: center;
-  text-shadow: 2px 2px 4px white;
+  text-shadow: 2px 2px 4px black;
   font-family: sans-serif;
   font-weight: 200;
   font-size: 20px;
@@ -5460,16 +5458,16 @@ h1 {
   font-family: 'Sarpanch', sans-serif;
   margin: 0;
   padding: 30px;
-  color: #8C95F9;
-  text-shadow: 1vmin 1vmin 0 #FAEBC1, -1vmin -1vmin 0 #E05E00;
+  color: #A9B6C0;
+  text-shadow: 1vmin 1vmin 0 #4A5C5E, -1vmin -1vmin 0 #3D3030;
 }
 a {
   text-overflow: none;
-  text-shadow: 1px 0px 0px #8C95F9, 0px 1px 0px #8C95F9, 2px 1px 0px #8C95F9, 1px 2px 0px #8C95F9, 3px 2px 0px #8C95F9, 2px 3px 0px #8C95F9, 4px 3px 0px #8C95F9, 3px 4px 0px #8C95F9, 5px 4px 0px #8C95F9, 4px 5px 0px #8C95F9, 6px 5px 0px #8C95F9, 5px 6px 0px #8C95F9, 7px 6px 0px #8C95F9, 6px 7px 0px #8C95F9, 8px 7px 0px #e05e00, 7px 8px 0px #e05e00, 9px 8px 0px #e05e00, 8px 9px 0px #e05e00, 10px 9px 0px #e05e00, 9px 10px 0px #e05e00, 11px 10px 0px #e05e00, 10px 11px 0px #8C95F9;
+  text-shadow: 1px 0px 0px #afbcc5, 0px 1px 0px #afbcc5, 2px 1px 0px #afbcc5, 1px 2px 0px #afbcc5, 3px 2px 0px #afbcc5, 2px 3px 0px #afbcc5, 4px 3px 0px #afbcc5, 3px 4px 0px #afbcc5, 5px 4px 0px #afbcc5, 4px 5px 0px #afbcc5, 6px 5px 0px #afbcc5, 5px 6px 0px #afbcc5, 7px 6px 0px #afbcc5, 6px 7px 0px #afbcc5, 8px 7px 0px black, 7px 8px 0px black, 9px 8px 0px black, 8px 9px 0px black, 10px 9px 0px black, 9px 10px 0px black, 11px 10px 0px black, 10px 11px 0px #afbcc5;
 }
 p,
 h2 {
-  text-shadow: 2px 2px 4px white;
+  text-shadow: 2px 2px 4px black;
   font-family: sans-serif;
   font-weight: 200;
   font-size: 20px;
@@ -5606,18 +5604,18 @@ figure.figure-codepen {
 }
 /* unvisited link */
 a {
-  color: white;
+  color: black;
 }
 a:link {
-  color: white;
+  color: black;
 }
 /* visited link */
 a:visited {
-  color: white;
+  color: black;
 }
 /* mouse over link */
 a:hover {
-  color: #8C95F9;
+  color: black;
 }
 figure.figure,
 figure.asciinema,

@@ -2,23 +2,21 @@
 ---
 Designprinciper
 =========================
-Du skall välja ut ett antal olika webbplatser och studera dem utifrån aspekten designprinciper.
-
 
 Min Design
 -----------------------
-Jag skulle beskriva mitt tema som harmonisk men också lite mystiskt.
-Min footer är mörk med en gif bild som rör sig, vilket jag tycker ger en lite mystisk känsla. Main designade jag med en lugn och trygg färg, som ger avkoppling men också fokus. Jag tyckter att det blev en ganska intressant kontrast. Jag tog bort mina borders för att få en mer minimalistisk känsla. I min footer lade jag in en bild för att få mer symmetri och rörelse.
+Jag skulle beskriva mitt tema som harmonisk, kreativ och lugnande.
+Min header ger balans och kreativitet medans min footer ger mer liv och rörelse. Main designade jag med färg som ger balans, välkomnande och värme. Jag tog bort mina borders för att få en mer minimalistisk känsla. I min footer lade jag in en bild för att få mer symmetri och rörelse.
 
 Designprinciper
 -----------------------
-Harmoni: Den bruna färgen som ger en lugn känsla.
+Harmoni: Bilden i min header.
 
-Rörelse: Gif bilden som rör sig. 3D effekt. Text shadow effekt.
+Rörelse: Bilden i min header. Bilden i min footer. 3D effekt. Text shadow effekt.
 
-Balans: Den symmetriska bilden i min footer.
+Balans: Färgen i min main. Den symmetriska bilden i min footer. Bilden i min header.
 
-Mystik: Den lila texten. Text shadow effekt på h1-h4, div, a och p. Den mörka och stora headern och bilden i min header. Jag tycker att det ser ut som elektriska signaler. Den symmetriska bilden i min footer ser också lite farlig och mystisk ut.
+Kreativitet: Färgen i min main. Bilden i min navbar. 
 
 
 Referenser
