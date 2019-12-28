@@ -5167,7 +5167,12 @@ hr::after {
   width: 60%;
 }
 .region-flash {
-  display: none;
+  display: inline;
+  float: left;
+  width: 98.95833333%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  background-color: #ccc;
 }
 .region-breadcrumb {
   display: inline;
@@ -5394,6 +5399,7 @@ div.author-byline {
 */
 p {
   display: inline-block;
+  font-family: 'Milonga', 'cursive';
 }
 .code {
   padding: 0 1em;
@@ -5526,24 +5532,24 @@ figure.figure-codepen {
 }
 /* unvisited link */
 a {
-  font-family: 'Tangerine', serif;
+  font-family: 'Milonga', 'cursive';
   font-size: 21px;
 }
 a:link {
-  color: black;
+  color: yellow;
 }
 /* visited link */
 a:visited {
-  color: black;
+  color: yellow;
 }
 /* mouse over link */
 a:hover {
-  color: black;
-  border-top: 2px solid black;
+  color: yellow;
+  border-top: 2px solid yellow;
   border-top-style: dotted;
 }
 a:hover {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid yellow;
   height: 60px;
 }
 figure.figure,
@@ -5650,11 +5656,11 @@ figure.figure.right {
   }
 }
 div {
-  font-family: 'Tangerine', serif;
+  font-family: 'Milonga', 'cursive';
   font-size: 20px;
 }
 h1 {
-  font-family: 'Tangerine', serif;
+  font-family: 'Milonga', 'cursive';
   font-weight: 200;
   font-size: 50px;
   display: inline-block;
@@ -5662,7 +5668,7 @@ h1 {
 h2,
 h3,
 h4 {
-  font-family: 'Tangerine', serif;
+  font-family: 'Milonga', 'cursive';
   font-weight: 200;
   font-size: 20px;
 }
